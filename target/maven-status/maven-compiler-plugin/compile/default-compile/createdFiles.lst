@@ -1,0 +1,5 @@
+com\yde\user\controller\UserController.class
+com\yde\user\service\UserService.class
+com\yde\user\UserApplication.class
+com\yde\user\entity\User.class
+com\yde\user\repository\UserRepository.class
