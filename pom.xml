@@ -9,7 +9,7 @@
 </parent>
 <groupId>com.yde</groupId>
 <artifactId>user-service</artifactId>
-<version>0.0.6-SNAPSHOT</version>
+<version>0.0.7-SNAPSHOT</version>
 <name>user-service</name>
 <description>Demo project for Spring Boot</description>
 <properties>
@@ -34,6 +34,10 @@
         <artifactId>spring-boot-starter-test</artifactId>
         <scope>test</scope>
     </dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
 </dependencies>
 
 <build>
@@ -43,6 +47,7 @@
             <artifactId>spring-boot-maven-plugin</artifactId>
         </plugin>
     </plugins>
+    <finalName>user-mysql-service</finalName>
 </build>
 
 </project>
