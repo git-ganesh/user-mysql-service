@@ -25,4 +25,7 @@ public class UserService {
         return userRepository.findById(userId).orElse(null);
     }
 
+    public User updateUser(User user){
+        return userRepository.save(user);
+    }
 }
