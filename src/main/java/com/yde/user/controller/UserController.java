@@ -29,7 +29,7 @@ public class UserController {
         return userService.updateUser(user);
     }
 
-    @PutMapping("/delete/{userId}")
+    @PostMapping("/remove/{userId}")
     public void deleteUser(@PathVariable("userId") Long userId){
         userService.deleteUser(userId);
     }
